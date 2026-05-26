@@ -7,7 +7,7 @@ import GallerySection from "@/components/GallerySection";
 import AboutSection from "@/components/AboutSection";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
-
+import StickyCallButton from "@/components/StickyCallButton";
 export default function Home() {
   return (
     <main>
@@ -20,6 +20,7 @@ export default function Home() {
       <AboutSection />
       <FinalCTA />
       <Footer />
+      <StickyCallButton />
     </main>
   );
 }
